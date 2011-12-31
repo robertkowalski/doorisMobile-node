@@ -1,0 +1,26 @@
+div(data-role='page')
+  div(data-position='fixed', data-role='header')
+    h1 CCCHH
+    a(href='#imp', data-role='button', class='ui-btn-right') Site info
+  div(data-role='content')
+    div(class='wrapper')
+      div(id='msg')
+        table(class='success)
+          tr(id='doorstatus')
+          tr(id='clientcount')
+
+  div(data-role='footer', data-position='fixed')
+    div(class='footerfix right')
+        a(id='update', href='#', data-role='button', data-icon='refresh', class='ui-btn-right') Update
+
+div(data-role='page', id='imp', data-fullscreen='false')
+
+  div(data-position='fixed', data-role='header', data-add-back-btn='true')
+    h1 Site info
+
+  div(data-role='content')
+    p(class='center')
+      img(src='images/siteinfo.png')
+
+  div(data-role='footer', data-position='fixed')
+    h1

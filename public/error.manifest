@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+CACHE:
+css/jquery-mobile.css
+css/main.css
+http://cold-spring-7154.herokuapp.com/css/images/ajax-loader.png
+http://cold-spring-7154.herokuapp.com/css/images/icons-18-black.png
+http://cold-spring-7154.herokuapp.com/css/images/icons-18-white.png
+javascripts/lib/jquery.js
+javascripts/lib/jquery.mobile-1.0.min.js
+javascripts/pong.js
+
+NETWORK:
+*

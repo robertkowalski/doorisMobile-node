@@ -1,0 +1,28 @@
+!!! 5
+html(manifest='error.manifest')
+  head
+    title='CCCHH'
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+    
+    link(rel='stylesheet', href='css/jquery-mobile.css')
+    
+    script(src='javascripts/lib/jquery.js')
+    script(src='javascripts/lib/jquery.mobile-1.0.min.js')
+
+    link(rel='stylesheet', href='css/main.css')
+    script(src='javascripts/pong.js')
+
+  body     
+    div(data-role='page', data-fullscreen='false')
+      div(data-role='content')
+        div(class='center')
+          h2 Page not found!
+          script
+            $(document).ready(function(){
+              $('#pong').jqPong({
+                  height: 300,
+                  width: 280
+              });
+            });
+          div(id='pong', class='pad_top')
